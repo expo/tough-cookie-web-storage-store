@@ -1,0 +1,33 @@
+{
+  "name": "tough-cookie-web-storage-store",
+  "version": "1.0.0",
+  "description": "A cookie store for the tough-cookie library based on Web Storage APIs (localStorage and sessionStorage)",
+  "main": "WebStorageCookieStore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exponentjs/tough-cookie-web-storage-store.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/exponentjs/tough-cookie-web-storage-store/issues"
+  },
+  "homepage": "https://github.com/exponentjs/tough-cookie-web-storage-store#readme",
+  "eslintConfig": {
+    "extends": "exponent"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.0",
+    "eslint": "^2.5.3",
+    "eslint-config-exponent": "^1.0.8"
+  },
+  "peerDependencies": {
+    "tough-cookie": "*"
+  }
+}
